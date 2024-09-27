@@ -1,0 +1,783 @@
+                /*this below lines are applicaple for all pages becasuse i used "*" in that  */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    list-style: none;
+                    text-decoration: none;
+                    color: black;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                /*this below lines are applicaple for logo class file in html  becasuse i used .logo img in that  */
+                
+                .headerbar {
+                    display: none;
+                }
+                
+                .searchicon {
+                    display: block;
+                }
+                
+                .logo img {
+                    width: 150px;
+                }
+                
+                .bar {
+                    display: none;
+                }
+                /*this below lines are applicaple for .header becasuse i used ".header class " in that  */
+                
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 100px;
+                    padding: 0 4vw;
+                    background-color: rgb(244, 253, 73);
+                    border-bottom: 2px solid rgb(255, 251, 181);
+                    box-shadow: 0 2px 20px rgba(245, 241, 12, 0.692);
+                }
+                
+                .header ul {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .header ul li:hover {
+                    color: rgba(249, 196, 196, 0.875)
+                }
+                /*... allignment of nav bar */
+                
+                .nav ul li {
+                    padding: 0 15px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                
+                .account {
+                    flex: 0.1;
+                }
+                
+                .account ul {
+                    display: flex;
+                    justify-content: end;
+                }
+                
+                .account ul li {
+                    padding: 0 15px;
+                    font-size: 18px;
+                }
+                
+                .bar i:hover {
+                    color: maroon
+                }
+                
+                .search {
+                    display: none;
+                    width: 200%;
+                    justify-content: center;
+                }
+                
+                .search input {
+                    width: 100px;
+                    outline: none;
+                    border: none;
+                    padding: 4px;
+                }
+                
+                .srchicon {
+                    background-color: rgb(255, 242, 97);
+                    display: block;
+                    padding: 4px 5px;
+                    cursor: pointer;
+                }
+                /*this below code is for home page and css contains image properties  */
+                
+                .home {
+                    background-color: rgb(255, 251, 181);
+                    padding: 0 5vw;
+                }
+                
+                .booking-form-container {
+                    width: 100%;
+                    max-width: 500px;
+                    margin: 40px auto;
+                    /* Centers the form horizontally */
+                    padding: 20px;
+                    background-color: ;
+                    border-radius: 8px;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                }
+                
+                .booking-form h2 {
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                    color: #333;
+                }
+                
+                .booking-form label {
+                    display: block;
+                    margin-bottom: 5px;
+                    font-size: 16px;
+                    color: #333;
+                }
+                
+                .booking-form input {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+                
+                .booking-form input:focus {
+                    outline: none;
+                    border-color: #007BFF;
+                }
+                
+                .booking-form .red_btn {
+                    padding: 10px 20px;
+                    background-color: #ff4b5c;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                
+                .booking-form .red_btn:hover {
+                    background-color: #ff6e7d;
+                }
+                
+                .about-us {
+                    padding: 60px 20px;
+                    background-color: #f9f9f9;
+                    text-align: center;
+                }
+                
+                .about-container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                
+                .about-us h2 {
+                    font-size: 32px;
+                    margin-bottom: 20px;
+                    color: #333;
+                }
+                
+                .about-us h3 {
+                    font-size: 24px;
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                    color: #ff4b5c;
+                }
+                
+                .about-us p {
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: #555;
+                    margin-bottom: 20px;
+                }
+                
+                .about-us ul {
+                    list-style-type: disc;
+                    margin: 20px auto;
+                    text-align: left;
+                    padding-left: 40px;
+                }
+                
+                .about-us ul li {
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: #555;
+                    margin-bottom: 10px;
+                }
+                
+                .contact-us {
+                    padding: 60px 20px;
+                    background-color: #f3f3f3;
+                    text-align: center;
+                }
+                
+                .contact-container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                
+                .contact-us h2 {
+                    font-size: 32px;
+                    color: #333;
+                    margin-bottom: 20px;
+                }
+                
+                .contact-us p {
+                    font-size: 18px;
+                    color: #555;
+                    margin-bottom: 30px;
+                }
+                
+                .contact-form {
+                    margin-bottom: 40px;
+                }
+                
+                .contact-form .form-group {
+                    margin-bottom: 20px;
+                }
+                
+                .contact-form label {
+                    font-size: 16px;
+                    display: block;
+                    margin-bottom: 8px;
+                    color: #333;
+                }
+                
+                .contact-form input[type="text"],
+                .contact-form input[type="email"],
+                .contact-form textarea {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+                
+                .contact-form textarea {
+                    resize: none;
+                }
+                
+                .contact-form button {
+                    background-color: #ff4b5c;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+                
+                .contact-form button:hover {
+                    background-color: #e03a4d;
+                }
+                
+                .contact-info {
+                    margin-top: 40px;
+                }
+                
+                .contact-info h3 {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    color: #ff4b5c;
+                }
+                
+                .contact-info p {
+                    font-size: 18px;
+                    color: #555;
+                    margin-bottom: 10px;
+                }
+                
+                .social-icons {
+                    margin-top: 20px;
+                }
+                
+                .social-icons a {
+                    font-size: 30px;
+                    margin: 0 10px;
+                    color: #333;
+                }
+                
+                .social-icons a:hover {
+                    color: #ff4b5c;
+                }
+                
+                .main_slide {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap-reverse;
+                }
+                
+                .main_slide div:nth-child(2) {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 30px;
+                }
+                
+                .main_slide div:nth-child(1) {
+                    padding-top: 20px;
+                    flex: 1;
+                    font-size: 30px;
+                    font-style: italic;
+                }
+                /* this below lines for para in home page with css*/
+                
+                .main_slide div:nth-child(1) p {
+                    font-size: 17px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    padding: 20px 0;
+                }
+                /* this below line for content in span tag*/
+                
+                .main_slide div:nth-child(1) span {
+                    color: rgb(253, 57, 8);
+                    text-decoration: underline;
+                    text-underline-offset: 10px;
+                    text-decoration-color: rgb(253, 140, 34);
+                }
+                
+                .red_btn {
+                    cursor: pointer;
+                    margin-top: 20px;
+                    width: 150px;
+                    font-weight: bold;
+                    color: aliceblue;
+                    line-height: 50px;
+                    background-color: rgb(253, 77, 8);
+                    border-radius: 5px;
+                    border: 1px solid rgb(253, 77, 8);
+                    transition: all 0.2;
+                }
+                /*for arrow mark in vist button<>*/
+                
+                .red_btn i {
+                    color: blue;
+                    transition: all 0.2ms;
+                }
+                
+                .red_btn:hover {
+                    background-color: antiquewhite;
+                    box-shadow: 0 2px 15px rgb(250, 120, 69);
+                    color: rgb(253, 77, 8);
+                    border: 1px solid rgb(253, 77, 8);
+                }
+                
+                .red_btn:hover i {
+                    color: rgb(253, 77, 8);
+                }
+                /*--this code belongs to food items in main slide  only css --*/
+                
+                .food-items {
+                    margin: 70px 0;
+                    padding: 20px 0;
+                    background-color: rgb(247, 247, 247);
+                    border-radius: 30px;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+                
+                .item {
+                    width: 250px;
+                    padding: 30px;
+                    text-align: center;
+                }
+                
+                .item div {
+                    height: 160px;
+                }
+                
+                .item img {
+                    width: 130px;
+                    margin-bottom: 15px;
+                }
+                
+                .item p {
+                    font-size: 12px;
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                }
+                
+                .white_btn {
+                    cursor: pointer;
+                    margin-top: 20px;
+                    width: 160px;
+                    font-weight: bold;
+                    color: rgb(253, 77, 8);
+                    line-height: 50px;
+                    border: 1px solid rgb(253, 77, 8);
+                    background-color: aliceblue;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 15px rgb(250, 120, 69);
+                    transition: all 0.1s;
+                }
+                
+                .white_btn:hover {
+                    color: aliceblue;
+                    background-color: rgb(253, 77, 8);
+                    box-shadow: 0 10px 15px rgb(250, 120, 69);
+                }
+                
+                .item .red_btn,
+                .item .white_btn {
+                    width: 120px;
+                    line-height: 35px;
+                }
+                
+                .main_slide2 {
+                    margin: 80px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .foodimg {
+                    flex: 0.5px;
+                }
+                
+                .foodimg img {
+                    max-width: 500px;
+                    width: 45vw;
+                }
+                
+                .question {
+                    flex: 0.5;
+                    flex-direction: column;
+                    margin-left: 40px;
+                }
+                
+                .question h2 {
+                    font-size: 35px;
+                    margin-bottom: 15px;
+                }
+                
+                .q-ans {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 15px 0;
+                    cursor: pointer;
+                }
+                
+                .q-ans img {
+                    width: 45px;
+                }
+                
+                .q-ans div:first-child {
+                    padding: 10px;
+                    border-radius: 50px;
+                    height: 65px;
+                    text-align: center;
+                    background-color: aliceblue;
+                    margin-right: 20px;
+                }
+                
+                .q-ans div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .q-ans div:nth-child(2) p {
+                    margin-top: 10px;
+                    font-size: 13px;
+                }
+                
+                .main_slide3 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    position: relative;
+                    z-index: 1;
+                }
+                
+                .main_slide3 .fav-head {
+                    text-align: center;
+                    width: 450px;
+                    margin-bottom: 30px;
+                }
+                
+                .main_slide3 .fav-head h3 {
+                    font-size: 30px;
+                    padding: 20px 0;
+                }
+                
+                .main_slide3 .fav-head p {
+                    font-size: 13px;
+                    text-align: center;
+                }
+                
+                .main_slide3 .fav-food {
+                    margin: 30px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    width: 90%;
+                }
+                
+                .main_slide3 .fav-food .item {
+                    background-color: antiquewhite;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    box-shadow: 0 2px 10px rgba(119, 119, 119, 0.438);
+                    width: 220px;
+                    padding: 15px;
+                    padding-top: 20px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                
+                .main_slide3 .fav-food .item div {
+                    height: 160px;
+                    margin-bottom: 15px;
+                }
+                
+                .main_slide3 .fav-food .item img {
+                    width: 160px;
+                    margin-bottom: 15px;
+                }
+                
+                .main_slide3 .fav-price {
+                    color: red;
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+                
+                .main_slide3 .dsgm {
+                    background-color: rgb(255, 251, 181);
+                    height: 50%;
+                    width: 100%;
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 0;
+                    border-radius: 10px;
+                }
+                
+                .food-items {
+                    display: flex;
+                    /* Align items in a row */
+                    flex-wrap: wrap;
+                    /* Allow items to wrap to the next line */
+                    justify-content: space-around;
+                    /* Add space between items */
+                    gap: 20px;
+                    /* Space between items */
+                }
+                
+                .item {
+                    width: 300px;
+                    /* Adjust the width of each item */
+                    margin: 10px;
+                    /* Space around each item */
+                    padding: 15px;
+                    /* Inner space within each item */
+                    border: 1px solid #ccc;
+                    /* Optional: Add a border */
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+                    /* Optional: Add shadow for a better look */
+                    text-align: center;
+                    /* Center align the content */
+                    background-color: rgb(255, 251, 181);
+                    /* Optional: Add background color */
+                }
+                
+                .letter {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 100px 0;
+                }
+                
+                .letter-head {
+                    flex: 0.5;
+                }
+                
+                .letter-head h2 {
+                    font-size: 30px;
+                }
+                
+                .letter-head h2 span {
+                    color: red;
+                }
+                
+                .letter-input {
+                    width: 50%;
+                    margin-top: 20px;
+                    display: flex;
+                    flex: 0.5s;
+                }
+                
+                .letter-input div {
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+                    background-color: rgb(255, 251, 181);
+                }
+                
+                .letter-input input {
+                    font-size: 15px;
+                    padding: 10px;
+                    outline: none;
+                    width: 100%;
+                    border: none;
+                    background-color: rgb(255, 251, 181);
+                }
+                
+                .letter-input .red_btn {
+                    margin: 0;
+                    font-size: 18px;
+                    box-shadow: none;
+                    border-radius: 0 10px 10px 0;
+                }
+                /* this code shows the visiblity in responsive while in minimize ,maximize give full header*/
+                
+                @media only screen and (max-width:800px) {
+                    .header .nav,
+                    .header .account {
+                        display: none;
+                    }
+                    .search {
+                        width: 60vw;
+                    }
+                    .bar {
+                        display: block;
+                        cursor: pointer;
+                    }
+                    .headerbar {
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: colunm;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        bottom: 0;
+                        right: -100%;
+                        transition: all 0.5s;
+                        background-color: rgb(250, 250, 9);
+                    }
+                    .headerbar .account,
+                    .headerbar .nav {
+                        display: block;
+                        font-size: 18px;
+                    }
+                    .bar .fa-xmark {
+                        display: none;
+                        top: 1%;
+                        right: 2%;
+                        position: absolute;
+                        font-size: 25px;
+                    }
+                    .headerbar .nav ul {
+                        flex-direction: column;
+                        margin-top: 13%;
+                        text-align: left;
+                    }
+                    .headerbar .nav li {
+                        width: 96vw;
+                        margin: 10px 0;
+                        padding: 15px 30px;
+                        box-shadow: 0 2px 15px rgb(233, 233, 50);
+                        font-size: 15px;
+                        margin-top: 15px;
+                    }
+                    .headerbar .account {
+                        justify-content: center;
+                        line-height: 50px;
+                        margin-top: 1px;
+                        padding: 10px;
+                    }
+                    .headerbar.account ul {
+                        justify-content: space-between;
+                    }
+                    .foodimg {
+                        flex: 1;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    .foodimg img {
+                        width: 70vw;
+                    }
+                    .question {
+                        flex: 1;
+                        margin-top: 30px;
+                    }
+                    .question h2 {
+                        font-size: 30px;
+                    }
+                    .q-ans div:nth-child(2) p {
+                        font-size: 13px;
+                    }
+                    .main_slide3 {
+                        margin-top: 100px;
+                    }
+                    .main_slide3 .dsgm {
+                        height: 60%;
+                    }
+                    .main_slide3 .fav-head {
+                        width: 80%;
+                        margin-bottom: 20px;
+                    }
+                    .letter-head h2 {
+                        font-size: 20px;
+                    }
+                    .letter-input {
+                        font-size: 12px;
+                        padding: 15px;
+                        width: 50vw;
+                    }
+                    .letter-input .red_btn {
+                        line-height: 40px;
+                        width: 120px;
+                        font-size: 12px;
+                    }
+                }
+                
+                @media only screen and (max-width:550px) {
+                    .main_slide div:nth-child(1) {
+                        font-size: 18px;
+                    }
+                    .main_slide div:nth-child(1) p {
+                        padding-top: 5px;
+                        margin: 10px 0;
+                        font-size: 11px;
+                    }
+                    .red_btn {
+                        margin-top: 10px;
+                        width: 120px;
+                        line-height: 30px;
+                        font-size: 12px;
+                        padding: 0 10px;
+                    }
+                    .main_slide div:nth-child(1)span {
+                        text-underline-offset: 1px;
+                    }
+                    .main_slide div:nth-child(2) img {
+                        width: 300px;
+                    }
+                    .food-items {
+                        padding: 10px 0;
+                    }
+                    .item {
+                        width: 60%;
+                        padding: 30px 5px;
+                        justify-content: space-evenly;
+                    }
+                    .item h3 {
+                        font-size: 20px;
+                        margin-bottom: 5px;
+                    }
+                    .main_slide3 .fav-head {
+                        width: 100%;
+                    }
+                    .main_slide3 .fav-head h3 {
+                        +3 font-size: 25px;
+                    }
+                    .main_slide3 .fav-head p {
+                        font-size: 11px;
+                    }
+                    .main_slide3 .dsgm {
+                        display: none;
+                    }
+                    .letter {
+                        justify-content: center;
+                    }
+                    .letter-head {
+                        flex: 1;
+                        text-align: center;
+                    }
+                }
